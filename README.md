@@ -201,7 +201,7 @@ func main() {
 
 ## Intentions
 
-`go-finance` aims to provide a clean, flexible, way to retrieve financial data for your own projects. This is accomplished through an implementation of the full suite of Yahoo! Finance APIs and other sources. After much consideration and exploration of the labyrinthian endpoint system in the Yahoo Finance ecosystem, I've done my best to select and document proper consumption of the seemingly most stable endpoints.
+`go-finance` aims to provide a clean, flexible way to retrieve financial data for your own projects. This is accomplished through an implementation of the full suite of Yahoo! Finance APIs and other sources. After much consideration and exploration of the labyrinthian endpoint system in the Yahoo Finance ecosystem, I've done my best to select and document proper consumption of the seemingly most stable endpoints.
 The primary technical tenants of this project are:
 
   * Make financial data easy and fun to work with in Go-lang.
@@ -224,7 +224,7 @@ There are several applications for this library. It's intentions are to be condu
 
 ## Limitations (currently)
 
-Given Yahoo! Finance's own perpetuation of a rabbit warren -like system of financial data YQL tables in varying degrees of deprecation, conflation/realtime, exchange availability, protocol access, and overall lack of consistent usage guidelines/documentation, I advise users of this library to be aware that you should not depend on it returning data to you 100% of the time. Build fail-safes and back-up plans into your own systems tasked with handling these cases as they arise. You should also probably complain to Yahoo to build better financial engineering tools since so many of us depend on them.
+Given Yahoo! Finance's own perpetuation of a rabbit warren -like system of financial data YQL tables in varying degrees of deprecation, conflation/real time, exchange availability, protocol access, and overall lack of consistent usage guidelines/documentation, I advise users of this library to be aware that you should not depend on its returning data to you 100% of the time. Build fail-safes and back-up plans into your own systems tasked with handling these cases as they arise. You should also probably complain to Yahoo to build better financial engineering tools since so many of us depend on them.
 
 While dataframes (tabular data structures used for analytical operations atypical of what you see in the beaten track of web programming) are popular in the financial development community for use in prototyping models, those concepts are not the current focus of this project.
 
